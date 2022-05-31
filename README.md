@@ -8,7 +8,7 @@ Adjacent matrix files and traffic speed files are included in the data folder. T
 
 # Model
 <p align="center">
-  <img src=./figure/model.PNG>
+  <img src=./model.PNG>
 </p>
 
 ## Citation

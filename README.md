@@ -6,10 +6,14 @@ Network for Traffic Prediction"
 ## Data
 Adjacent matrix files and traffic speed files are included in the data folder. The datasets are from Caltrans Performance Measurement System (PeMS) (https://pems.dot.ca.gov/). The road networks are collected from OpenStreetMap (https://planet.osm.org).
 
-# Model
+## Model
 <p align="center">
   <img src=./model.PNG>
 </p>
+
+## Packages
+Python 3.7
+TensorFlow 2.9.1
 
 ## Citation
 If you find this repository useful in your research, please cite the following paper:

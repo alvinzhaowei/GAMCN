@@ -10,7 +10,7 @@ def data_preprocess(train_ratio, test_ratio):
     # train/val/test
     num_step = Traffic.shape[0]
     time_coding = np.zeros((num_step, 295, 1), dtype="float32")
-    s_day = 4
+    s_day = 1
     for i in range(num_step):
         day = (s_day + i // 288) % 7
         time_coding[i][i % 288] = 1
